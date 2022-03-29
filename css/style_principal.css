@@ -1,0 +1,19 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 100px;
+}
+
+.header_content {
+    display: flex;
+    flex-direction: row;
+}
+
+.header_content > * {
+    margin: 15px;
+}
+
+#header_content_right > img {
+    width: 30px;
+}
